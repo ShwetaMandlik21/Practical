@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Library Management Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div>
+    <nav class="navbar bg-body-tertiary bg-warning">
+      <div class="container-fluid">
+        <a class="navbar-brand">Library System</a>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-danger" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-header">Books</div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><a href="#">Mechanical</a></li>
+            <li class="list-group-item"><a href="#">Information Technology</a></li>
+            <li class="list-group-item"><a href="#">Computer</a></li>
+            <li class="list-group-item"><a href="#">Electrical</a></li>
+            <li class="list-group-item"><a href="#">Electronics and Telecommunication</a></li>
+            <li class="list-group-item"><a href="#">Civil</a></li>
+            <li class="list-group-item"><a href="#">Artificial Intelligence and Data Science</a></li>
+          </ul>
+        </div>
+        <div class="card-header">Members</div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><a href="#">Students</a></li>
+          <li class="list-group-item"><a href="#">Teaching Staff</a></li>
+          <li class="list-group-item"><a href="#">Non-Teaching Staff</a></li>
+
+      </div>
+      <div class="col-md-9">
+        <div class="card">
+          <div class="card-header">Computer Engineering Books</div>
+          <div class="card-body">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Book Title</th>
+                  <th>Author</th>
+                  <th>ISBN</th>
+                  <th>Available Copies</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Introduction to Algorithms</td>
+                  <td>Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein</td>
+                  <td>9780262033848</td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <td>Operating System Concepts</td>
+                  <td>Abraham Silberschatz, Greg Gagne, Peter B. Galvin</td>
+                  <td>9781119456339</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>Database System Concepts</td>
+                  <td>Abraham Silberschatz, Henry F. Korth, S. Sudarshan</td>
+                  <td>9780073523323</td>
+                  <td>2</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
